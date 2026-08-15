@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: smk-tunas-media
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: VITE_DEMO_MODE
+        value: "true"
+      - key: AUTH_USERNAME
+        value: SMK Tunas Media
+      - key: AUTH_PASSWORD
+        value: "Bissmillah"
+      - key: GEMINI_API_KEY
+        sync: false

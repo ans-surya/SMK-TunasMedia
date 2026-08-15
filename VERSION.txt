@@ -1,0 +1,9 @@
+SMK TUNAS MEDIA - FINAL v3
+Dynamic Login Credentials
+
+Fitur perubahan:
+- Username/password dapat diubah dari menu Pengaturan.
+- Setelah disimpan, kredensial langsung aktif di server.
+- Endpoint perubahan kredensial dilindungi sesi login aktif.
+- Kredensial runtime tersimpan di data/auth-credentials.json (tidak diikutkan ke repository/image).
+- Firebase mode mencoba menyinkronkan kredensial ke pengaturan/config.

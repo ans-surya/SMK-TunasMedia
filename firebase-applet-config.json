@@ -1,0 +1,9 @@
+{
+  "apiKey": "demo-placeholder-api-key",
+  "authDomain": "demo-placeholder.firebaseapp.com",
+  "projectId": "smk-tunas-media-demo",
+  "storageBucket": "smk-tunas-media-demo.firebasestorage.app",
+  "messagingSenderId": "000000000000",
+  "appId": "1:000000000000:web:smktunasmedia",
+  "firestoreDatabaseId": "(default)"
+}
